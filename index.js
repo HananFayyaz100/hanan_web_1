@@ -15,8 +15,9 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Portfolio API is working")
-})
+  res.send("API is running 🚀");
+});
+
 
 app.use("/api/projects", projectRoutes);
 app.use("/api/projects2", projectRoutes2);
