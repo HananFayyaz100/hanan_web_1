@@ -5,6 +5,7 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import projectRoutes from "./routes/projectRoutes.js";
 import projectRoutes2 from "./routes/projectRoutes2.js";
+console.log("ENV CHECK:", process.env.MONGO_URI);
 
 connectDB();
 
